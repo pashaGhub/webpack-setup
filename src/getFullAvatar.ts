@@ -1,4 +1,4 @@
-import { avatar } from "./avatars.js";
+import { avatar } from "./avatars";
 import { sword } from "./weapons";
 
 const getFullAvatar = () => {

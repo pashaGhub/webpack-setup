@@ -2,7 +2,7 @@
   "name": "webpack-setup",
   "version": "1.0.0",
   "description": "test project build with webpack",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,6 +24,8 @@
   "dependencies": {
     "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.19.1",
-    "babel-loader": "^8.2.5"
+    "@babel/preset-typescript": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "ts-loader": "^9.4.1"
   }
 }

@@ -1,6 +1,6 @@
 import getFullAvatar from "./getFullAvatar";
 
-console.log("viskas veikia");
+console.log("working");
 getFullAvatar();
 
 const first = { a: 1, b: 4 };
